@@ -102,3 +102,32 @@ header h4 a {
     height: 48pt;
   }
 }
+/*-------DESKTOP VERSION----------*/
+@media screen and (min-width: 1200px) {
+  /*------------NAV BAR----------------*/
+
+  header {
+    height: 128px;
+  }
+
+  header h3 {
+    top: 34px;
+  }
+
+  header ul {
+    top: 59px;
+    left: 350px;
+    /* left: 544px; */
+  }
+
+  header ul li a {
+    margin-left: 100px;
+  }
+
+  header h4 {
+    top: 40px;
+    right: 160px;
+    width: 160px;
+    height: 48px;
+  }
+}
