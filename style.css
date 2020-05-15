@@ -11,11 +11,12 @@ header {
   width: 100%;
   height: 200px;
   background: #ffffff;
-  position: absolute;
-  border-bottom: 0.5px solid black;
+  /* position: absolute; */
 }
 
 header h3 {
+  font-style: normal;
+  font-weight: 700;
   font-weight: bold;
   width: 125px;
   height: 40px;
@@ -29,7 +30,6 @@ header h3 {
 
 header ul {
   position: absolute;
-  /* left: 232px; */
   right: 38px;
   top: 32px;
 }
@@ -58,6 +58,7 @@ header h4 {
   align-items: center;
   justify-content: center;
 }
+
 header h4 a {
   text-decoration: none;
   font-size: 18px;
@@ -65,8 +66,79 @@ header h4 a {
   font-weight: bold;
 }
 
+/*----------------CLIMATE CHANGE------------------*/
+.climate {
+  background: url(/images/climate_mob.jpg) no-repeat 100% center;
+  width: 100%;
+  height: 592px;
+  background-size: cover;
+}
+
+.climate h3 {
+  font-family: flood-std, sans-serif;
+  color: #ffffff;
+  font-size: 44px;
+  font-style: normal;
+  position: relative;
+  width: 181px;
+  height: 136px;
+  top: 32px;
+  left: 32px;
+}
+
+.climate h4 {
+  background: #354463;
+  width: 160px;
+  height: 40px;
+  display: block;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 148px;
+  color: #ffffff;
+  font-size: 14px;
+  z-index: 5;
+}
+
+.climate .change {
+  background: #ffffff;
+  width: 312px;
+  height: 240px;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 128px;
+}
+
+.climate .change p,
+a {
+  color: #354463;
+  text-align: center;
+}
+
+.climate .change p {
+  font-size: 22px;
+  width: 278px;
+  height: 78px;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 56px;
+  font-weight: bold;
+}
+
+.climate .change a {
+  position: absolute;
+  top: 167px;
+  left: 10%;
+  width: 248px;
+  height: 42px;
+}
+
 /*-------TAB VERSION----------*/
-@media screen and (min-width: 768pt) {
+@media screen and (min-width: 768px) {
   /*------------NAV BAR----------------*/
 
   header {
@@ -101,9 +173,65 @@ header h4 a {
     width: 140pt;
     height: 48pt;
   }
+
+  /*----------------CLIMATE CHANGE------------------*/
+
+  .climate {
+    background: url(/images/climate_desk.jpg);
+    width: 100%;
+    height: 688px;
+    background-size: cover;
+  }
+
+  .climate h3 {
+    position: relative;
+    width: 181px;
+    height: 136px;
+    top: 69px;
+    left: 64px;
+  }
+
+  .climate h4 {
+    width: 156px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 411px;
+    left: 128px;
+    z-index: 5;
+  }
+
+  .climate .change {
+    width: 640px;
+    height: 309px;
+    position: absolute;
+    top: 427px;
+    left: 64px;
+  }
+
+  .climate .change p {
+    font-size: 36px;
+    width: 512px;
+    height: 138px;
+    text-align: left;
+    font-weight: bold;
+    position: absolute;
+    top: 59px;
+    left: 64px;
+  }
+
+  .climate .change a {
+    position: absolute;
+    top: 229px;
+    left: 67px;
+    text-align: left;
+    width: 376px;
+    height: 16px;
+  }
 }
-/*-------DESKTOP VERSION----------*/
-@media screen and (min-width: 1200px) {
+/*-----------------------DESKTOP VERSION--------------------------------------*/
+@media screen and (min-width: 1100px) {
   /*------------NAV BAR----------------*/
 
   header {
@@ -117,7 +245,6 @@ header h4 a {
   header ul {
     top: 59px;
     left: 350px;
-    /* left: 544px; */
   }
 
   header ul li a {
@@ -129,5 +256,55 @@ header h4 a {
     right: 160px;
     width: 160px;
     height: 48px;
+  }
+
+  /*----------------CLIMATE CHANGE------------------*/
+
+  .climate {
+    background: url(/images/climate_desk.jpg);
+    width: 100%;
+    height: 672px;
+    background-size: cover;
+  }
+
+  .climate h3 {
+    font-size: 72px;
+    position: relative;
+    top: 136.67px;
+    left: 839px;
+  }
+
+  .climate h4 {
+    width: 160px;
+    position: absolute;
+    top: 240px;
+    left: 224px;
+  }
+
+  .climate .change {
+    width: 544px;
+    height: 416px;
+    position: absolute;
+    top: 256px;
+    left: 160px;
+  }
+
+  .climate .change p {
+    font-size: 44px;
+    width: 416px;
+    height: 221px;
+    font-weight: bold;
+    position: absolute;
+    top: 76px;
+    left: 64px;
+  }
+
+  .climate .change a {
+    position: absolute;
+    top: 325px;
+    left: 64px;
+    text-align: left;
+    width: 376px;
+    height: 16px;
   }
 }
