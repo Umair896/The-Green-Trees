@@ -67,6 +67,7 @@ header h4 a {
 }
 
 /*----------------CLIMATE CHANGE------------------*/
+
 .climate {
   background: url(/images/climate_mob.jpg) no-repeat 100% center;
   width: 100%;
@@ -137,8 +138,66 @@ a {
   height: 42px;
 }
 
+/*----------------TAKE ACTION------------------*/
+
+.action {
+  background: #c1f7d5;
+  width: 100%;
+  height: 328px;
+}
+
+.contents {
+  color: #354463;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  left: 32px;
+  top: 65px;
+}
+
+.contents div {
+  width: 144px;
+}
+
+.contents .learn h2,
+.volunteer h2,
+.share h2,
+.donate h2 {
+  font-size: 18px;
+}
+
+.contents .learn p,
+.volunteer p,
+.share p,
+.donate p {
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.contents .share,
+.contents .donate {
+  margin-top: 27px;
+}
+
+.action h4 {
+  background: #354463;
+  width: 160px;
+  height: 40px;
+  display: block;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -220px;
+  color: #ffffff;
+  font-size: 14px;
+  z-index: 5;
+}
+
 /*-------TAB VERSION----------*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 700px) {
   /*------------NAV BAR----------------*/
 
   header {
@@ -229,6 +288,43 @@ a {
     width: 376px;
     height: 16px;
   }
+
+  /*----------------TAKE ACTION------------------*/
+
+  .action {
+    height: 336px;
+  }
+
+  .contents {
+    position: relative;
+    left: 64px;
+    top: 64px;
+  }
+
+  .contents div {
+    width: 256px;
+  }
+
+  .contents .learn h2,
+  .volunteer h2,
+  .share h2,
+  .donate h2 {
+    font-size: 22px;
+  }
+
+  .contents .learn p,
+  .volunteer p,
+  .share p,
+  .donate p {
+    margin-top: 6px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .contents .share,
+  .contents .donate {
+    margin-top: 44px;
+  }
 }
 /*-----------------------DESKTOP VERSION--------------------------------------*/
 @media screen and (min-width: 1100px) {
@@ -306,5 +402,63 @@ a {
     text-align: left;
     width: 376px;
     height: 16px;
+  }
+
+  /*----------------TAKE ACTION------------------*/
+
+  .action {
+    height: 240px;
+  }
+
+  .contents {
+    position: relative;
+    left: 160px;
+    top: 79px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .contents div {
+    width: 232px;
+  }
+
+  .contents .volunteer,
+  .share,
+  .donate {
+    margin-left: -64px;
+  }
+
+  .contents .share {
+    margin-left: -134px;
+  }
+
+  .contents .donate {
+    margin-left: -196px;
+  }
+
+  .contents .learn h2,
+  .volunteer h2,
+  .share h2,
+  .donate h2 {
+    font-size: 28px;
+  }
+
+  .contents .learn p,
+  .volunteer p,
+  .share p,
+  .donate p {
+    margin-top: 6px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .contents .share,
+  .contents .donate {
+    margin-top: 0;
+  }
+
+  .action h4 {
+    position: relative;
+    top: -100px;
   }
 }
