@@ -512,9 +512,7 @@ a {
   margin: 22px auto;
 }
 
-.planting,
-.education,
-.advocacy {
+.planting {
   background: #ffffff;
   width: 312px;
   height: 415px;
@@ -524,9 +522,7 @@ a {
   margin: 82px auto 0 auto;
 }
 
-.planting img,
-.education img,
-.advocacy img {
+.planting img {
   width: 248px;
   height: 176px;
   object-fit: cover;
@@ -536,16 +532,12 @@ a {
   top: -33px;
 }
 
-.planting h4,
-.education h4,
-.advocacy h4 {
+.planting h4 {
   font-size: 18px;
   margin-bottom: 22px;
 }
 
-.planting p,
-.education p,
-.advocacy p {
+.planting p {
   width: 242px;
   font-size: 14px;
   display: block;
@@ -593,23 +585,22 @@ a {
     text-align: left;
   }
 
-  .planting,
-  .education,
-  .advocacy {
+  .planting {
     width: 640px;
     height: 280px;
     display: block;
     margin: 138px auto 0 auto;
   }
 
-  .education,
-  .advocacy {
+  .planting:nth-child(2) {
     margin-top: 64px;
   }
 
-  .planting img,
-  .education img,
-  .advocacy img {
+  .planting:nth-child(3) {
+    margin-top: 64px;
+  }
+
+  .planting img {
     width: 288px;
     height: 201px;
     object-fit: cover;
@@ -618,9 +609,7 @@ a {
     left: -145px;
   }
 
-  .planting h4,
-  .education h4,
-  .advocacy h4 {
+  .planting h4 {
     font-size: 22px;
     width: 144px;
     height: 50px;
@@ -630,9 +619,7 @@ a {
     top: -164px;
   }
 
-  .planting p,
-  .education p,
-  .advocacy p {
+  .planting p {
     width: 246px;
     font-size: 16px;
     text-align: left;
@@ -663,12 +650,11 @@ a {
   .mission {
     position: relative;
     top: 88px;
-    /* left: -120px; */
   }
 
   .mission h3 {
-    position: relative;
-    left: -370px;
+    position: absolute;
+    left: 100px;
   }
 
   .mission p {
@@ -676,31 +662,34 @@ a {
     width: 1122px;
     height: 140px;
     text-align: left;
-    position: relative;
-    left: 110px;
+    position: absolute;
+    left: 100px; /*adjusted*/
+    top: 51px;
   }
 
   .mission-wrap {
     display: flex;
     justify-content: space-evenly;
+    position: relative;
+    left: 30px; /*adjusted*/
+    margin-right: 100px;
   }
 
-  .planting,
-  .education,
-  .advocacy {
+  .planting {
     width: 320px;
     height: 528px;
-    margin-top: 106px;
+    margin-top: 384px;
   }
 
-  .education,
-  .advocacy {
-    /* margin-top: 64px; */
+  .planting:nth-child(2) {
+    margin-top: 384px;
   }
 
-  .planting img,
-  .education img,
-  .advocacy img {
+  .planting:nth-child(3) {
+    margin-top: 384px;
+  }
+
+  .planting img {
     width: 320px;
     height: 224px;
     object-fit: cover;
@@ -709,9 +698,7 @@ a {
     left: 32px;
   }
 
-  .planting h4,
-  .education h4,
-  .advocacy h4 {
+  .planting h4 {
     font-size: 28px;
     width: 270px; /*Adjusted*/
     height: 70px;
@@ -720,9 +707,7 @@ a {
     top: 0;
   }
 
-  .planting p,
-  .education p,
-  .advocacy p {
+  .planting p {
     width: 256px;
     position: relative;
     left: 5px;
