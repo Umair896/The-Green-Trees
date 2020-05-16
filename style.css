@@ -3,9 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*----------------MOBILE VERSION------------------*/
 
-/*----------------NAV BAR------------------*/
+/*-----------------------------------NAV BAR-----------------------------------------------*/
+
+/*---------------------MOBILE VERSION--------------------------*/
 
 header {
   width: 100%;
@@ -66,7 +67,74 @@ header h4 a {
   font-weight: bold;
 }
 
-/*----------------CLIMATE CHANGE------------------*/
+/*---------------------TAB VERSION--------------------------*/
+
+@media screen and (min-width: 700px) {
+  header {
+    height: 128pt;
+  }
+
+  header h3 {
+    top: 20pt;
+    left: 64pt;
+    width: 150pt;
+    height: 63pt;
+    font-size: 22pt;
+  }
+  header ul {
+    top: 92pt;
+    left: 36pt;
+  }
+  header ul li {
+    display: inline;
+  }
+
+  header ul li a {
+    top: 0pt;
+    margin-left: 31pt;
+    font-size: 16pt;
+  }
+
+  header h4 {
+    position: absolute;
+    top: 40pt;
+    right: 64pt;
+    width: 140pt;
+    height: 48pt;
+  }
+}
+
+/*---------------------DESKTOP VERSION--------------------------*/
+
+@media screen and (min-width: 1100px) {
+  header {
+    height: 128px;
+  }
+
+  header h3 {
+    top: 34px;
+  }
+
+  header ul {
+    top: 59px;
+    left: 350px;
+  }
+
+  header ul li a {
+    margin-left: 100px;
+  }
+
+  header h4 {
+    top: 40px;
+    right: 30px;
+    width: 160px;
+    height: 48px;
+  }
+}
+
+/*-----------------------------------CLIMATE CHANGE-----------------------------------------------*/
+
+/*---------------------MOBILE VERSION--------------------------*/
 
 .climate {
   background: url(/images/climate_mob.jpg) no-repeat 100% center;
@@ -138,7 +206,119 @@ a {
   height: 42px;
 }
 
-/*----------------TAKE ACTION------------------*/
+/*---------------------TAB VERSION--------------------------*/
+
+@media screen and (min-width: 700px) {
+  .climate {
+    background: url(/images/climate_desk.jpg);
+    width: 100%;
+    height: 688px;
+    background-size: cover;
+  }
+
+  .climate h3 {
+    position: relative;
+    width: 181px;
+    height: 136px;
+    top: 69px;
+    left: 64px;
+  }
+
+  .climate h4 {
+    width: 156px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 411px;
+    left: 128px;
+    z-index: 5;
+  }
+
+  .climate .change {
+    width: 640px;
+    height: 309px;
+    position: absolute;
+    top: 427px;
+    left: 64px;
+  }
+
+  .climate .change p {
+    font-size: 36px;
+    width: 512px;
+    height: 138px;
+    text-align: left;
+    font-weight: bold;
+    position: absolute;
+    top: 59px;
+    left: 64px;
+  }
+
+  .climate .change a {
+    position: absolute;
+    top: 229px;
+    left: 67px;
+    text-align: left;
+    width: 376px;
+    height: 16px;
+  }
+}
+
+/*---------------------DESKTOP VERSION--------------------------*/
+
+@media screen and (min-width: 1100px) {
+  .climate {
+    background: url(/images/climate_desk.jpg);
+    width: 100%;
+    height: 672px;
+    background-size: cover;
+  }
+
+  .climate h3 {
+    font-size: 72px;
+    position: relative;
+    top: 136.67px;
+    left: 839px;
+  }
+
+  .climate h4 {
+    width: 160px;
+    position: absolute;
+    top: 240px;
+    left: 224px;
+  }
+
+  .climate .change {
+    width: 544px;
+    height: 416px;
+    position: absolute;
+    top: 256px;
+    left: 160px;
+  }
+
+  .climate .change p {
+    font-size: 44px;
+    width: 416px;
+    height: 221px;
+    font-weight: bold;
+    position: absolute;
+    top: 76px;
+    left: 64px;
+  }
+
+  .climate .change a {
+    position: absolute;
+    top: 325px;
+    left: 64px;
+    text-align: left;
+    width: 376px;
+    height: 16px;
+  }
+}
+
+/*-----------------------------------TAKE ACTION-----------------------------------------------*/
+
+/*---------------------MOBILE VERSION--------------------------*/
 
 .action {
   background: #c1f7d5;
@@ -196,101 +376,9 @@ a {
   z-index: 5;
 }
 
-/*-------TAB VERSION----------*/
+/*---------------------TAB VERSION--------------------------*/
+
 @media screen and (min-width: 700px) {
-  /*------------NAV BAR----------------*/
-
-  header {
-    height: 128pt;
-  }
-
-  header h3 {
-    top: 20pt;
-    left: 64pt;
-    width: 150pt;
-    height: 63pt;
-    font-size: 22pt;
-  }
-  header ul {
-    top: 92pt;
-    left: 36pt;
-  }
-  header ul li {
-    display: inline;
-  }
-
-  header ul li a {
-    top: 0pt;
-    margin-left: 31pt;
-    font-size: 16pt;
-  }
-
-  header h4 {
-    position: absolute;
-    top: 40pt;
-    right: 64pt;
-    width: 140pt;
-    height: 48pt;
-  }
-
-  /*----------------CLIMATE CHANGE------------------*/
-
-  .climate {
-    background: url(/images/climate_desk.jpg);
-    width: 100%;
-    height: 688px;
-    background-size: cover;
-  }
-
-  .climate h3 {
-    position: relative;
-    width: 181px;
-    height: 136px;
-    top: 69px;
-    left: 64px;
-  }
-
-  .climate h4 {
-    width: 156px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 411px;
-    left: 128px;
-    z-index: 5;
-  }
-
-  .climate .change {
-    width: 640px;
-    height: 309px;
-    position: absolute;
-    top: 427px;
-    left: 64px;
-  }
-
-  .climate .change p {
-    font-size: 36px;
-    width: 512px;
-    height: 138px;
-    text-align: left;
-    font-weight: bold;
-    position: absolute;
-    top: 59px;
-    left: 64px;
-  }
-
-  .climate .change a {
-    position: absolute;
-    top: 229px;
-    left: 67px;
-    text-align: left;
-    width: 376px;
-    height: 16px;
-  }
-
-  /*----------------TAKE ACTION------------------*/
-
   .action {
     height: 336px;
   }
@@ -326,86 +414,10 @@ a {
     margin-top: 44px;
   }
 }
-/*-----------------------DESKTOP VERSION--------------------------------------*/
+
+/*---------------------DESKTOP VERSION--------------------------*/
+
 @media screen and (min-width: 1100px) {
-  /*------------NAV BAR----------------*/
-
-  header {
-    height: 128px;
-  }
-
-  header h3 {
-    top: 34px;
-  }
-
-  header ul {
-    top: 59px;
-    left: 350px;
-  }
-
-  header ul li a {
-    margin-left: 100px;
-  }
-
-  header h4 {
-    top: 40px;
-    right: 160px;
-    width: 160px;
-    height: 48px;
-  }
-
-  /*----------------CLIMATE CHANGE------------------*/
-
-  .climate {
-    background: url(/images/climate_desk.jpg);
-    width: 100%;
-    height: 672px;
-    background-size: cover;
-  }
-
-  .climate h3 {
-    font-size: 72px;
-    position: relative;
-    top: 136.67px;
-    left: 839px;
-  }
-
-  .climate h4 {
-    width: 160px;
-    position: absolute;
-    top: 240px;
-    left: 224px;
-  }
-
-  .climate .change {
-    width: 544px;
-    height: 416px;
-    position: absolute;
-    top: 256px;
-    left: 160px;
-  }
-
-  .climate .change p {
-    font-size: 44px;
-    width: 416px;
-    height: 221px;
-    font-weight: bold;
-    position: absolute;
-    top: 76px;
-    left: 64px;
-  }
-
-  .climate .change a {
-    position: absolute;
-    top: 325px;
-    left: 64px;
-    text-align: left;
-    width: 376px;
-    height: 16px;
-  }
-
-  /*----------------TAKE ACTION------------------*/
-
   .action {
     height: 240px;
   }
@@ -460,5 +472,270 @@ a {
   .action h4 {
     position: relative;
     top: -100px;
+  }
+}
+
+/*-----------------------------------OUR MISSION-----------------------------------------------*/
+
+/*---------------------MOBILE VERSION--------------------------*/
+
+.what-we-do {
+  background: #354463;
+  width: 100%;
+  height: 1728px;
+}
+
+.mission {
+  text-align: center;
+  position: relative;
+  top: 43px;
+}
+
+.mission h3 {
+  background: #ffffff;
+  width: 160px;
+  height: 40px;
+  font-size: 14px;
+  display: block;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission p {
+  color: #ffffff;
+  font-size: 22px;
+  width: 302px;
+  height: 134px;
+  display: block;
+  margin: 22px auto;
+}
+
+.planting,
+.education,
+.advocacy {
+  background: #ffffff;
+  width: 312px;
+  height: 415px;
+  display: block;
+  color: #354463;
+  text-align: center;
+  margin: 82px auto 0 auto;
+}
+
+.planting img,
+.education img,
+.advocacy img {
+  width: 248px;
+  height: 176px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: -33px;
+}
+
+.planting h4,
+.education h4,
+.advocacy h4 {
+  font-size: 18px;
+  margin-bottom: 22px;
+}
+
+.planting p,
+.education p,
+.advocacy p {
+  width: 242px;
+  font-size: 14px;
+  display: block;
+  margin: auto;
+}
+
+.mission-wrap .read-more {
+  background: #c1f7d5;
+  width: 152px;
+  height: 40px;
+  border-radius: 100px;
+  display: block;
+  margin: 31px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission-wrap .read-more a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/*---------------------TAB VERSION--------------------------*/
+
+@media screen and (min-width: 700px) {
+  .what-we-do {
+    height: 1384px;
+  }
+
+  .mission {
+    position: relative;
+    top: 60px;
+  }
+
+  .mission h3 {
+    position: relative;
+    left: -236px;
+  }
+
+  .mission p {
+    font-size: 36px;
+    width: 640px;
+    height: 140px;
+    text-align: left;
+  }
+
+  .planting,
+  .education,
+  .advocacy {
+    width: 640px;
+    height: 280px;
+    display: block;
+    margin: 138px auto 0 auto;
+  }
+
+  .education,
+  .advocacy {
+    margin-top: 64px;
+  }
+
+  .planting img,
+  .education img,
+  .advocacy img {
+    width: 288px;
+    height: 201px;
+    object-fit: cover;
+    position: relative;
+    top: -32px;
+    left: -145px;
+  }
+
+  .planting h4,
+  .education h4,
+  .advocacy h4 {
+    font-size: 22px;
+    width: 144px;
+    height: 50px;
+    text-align: left;
+    position: relative;
+    left: 352px;
+    top: -164px;
+  }
+
+  .planting p,
+  .education p,
+  .advocacy p {
+    width: 246px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 24px;
+    position: relative;
+    left: 158px;
+    top: -156px;
+  }
+
+  .mission-wrap .read-more {
+    position: relative;
+    top: -232px;
+    left: -88px;
+  }
+
+  .mission-wrap .read-more a {
+    font-size: 18px;
+  }
+}
+
+/*---------------------DESKTOP VERSION--------------------------*/
+
+@media screen and (min-width: 1100px) {
+  .what-we-do {
+    height: 1072px;
+  }
+
+  .mission {
+    position: relative;
+    top: 88px;
+    /* left: -120px; */
+  }
+
+  .mission h3 {
+    position: relative;
+    left: -370px;
+  }
+
+  .mission p {
+    font-size: 44px;
+    width: 1122px;
+    height: 140px;
+    text-align: left;
+    position: relative;
+    left: 110px;
+  }
+
+  .mission-wrap {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .planting,
+  .education,
+  .advocacy {
+    width: 320px;
+    height: 528px;
+    margin-top: 106px;
+  }
+
+  .education,
+  .advocacy {
+    /* margin-top: 64px; */
+  }
+
+  .planting img,
+  .education img,
+  .advocacy img {
+    width: 320px;
+    height: 224px;
+    object-fit: cover;
+    position: relative;
+    top: -32px;
+    left: 32px;
+  }
+
+  .planting h4,
+  .education h4,
+  .advocacy h4 {
+    font-size: 28px;
+    width: 270px; /*Adjusted*/
+    height: 70px;
+    position: relative;
+    left: 32px;
+    top: 0;
+  }
+
+  .planting p,
+  .education p,
+  .advocacy p {
+    width: 256px;
+    position: relative;
+    left: 5px;
+    top: -17px;
+  }
+
+  .mission-wrap .read-more {
+    position: relative;
+    top: -12px;
+    left: -45px;
+  }
+
+  .mission-wrap .read-more a {
+    font-size: 18px;
   }
 }
