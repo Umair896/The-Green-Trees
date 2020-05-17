@@ -734,7 +734,6 @@ a {
   width: 100%;
   height: 1008px;
   background-size: cover;
-  /* position: relative; */
 }
 
 .hunger h3 {
@@ -840,4 +839,153 @@ a {
   color: #ffffff;
   position: relative;
   top: 150px;
+}
+
+/*---------------------TAB VERSION--------------------------*/
+
+@media screen and (min-width: 700px) {
+  .hunger {
+    background: url(/images/survival_desk.jpg);
+    width: 100%;
+    height: 833px;
+    background-size: cover;
+  }
+
+  .hunger {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hunger h3 {
+    width: 193px;
+    height: 228px;
+    margin-left: 32px;
+    margin-top: 3px;
+  }
+
+  .hunger .action-today {
+    width: 156px;
+    height: 40px;
+    border-radius: 100px;
+    margin-left: 32px;
+    margin-top: 26px;
+  }
+
+  .hunger .poverty {
+    width: 384px;
+    height: 152px;
+    margin-right: 64px;
+  }
+
+  .hunger .first {
+    margin-top: 65px;
+  }
+
+  .hunger .second {
+    margin-top: 32px;
+  }
+
+  .hunger .third {
+    margin-top: 32px;
+  }
+  .hunger .fourth {
+    margin-top: 32px;
+  }
+
+  .poverty .survival {
+    margin-left: 32px;
+    margin-top: 29px;
+  }
+
+  .poverty h5 {
+    font-size: 36px;
+  }
+
+  .poverty p {
+    font-size: 16px;
+    width: 224px;
+    height: 44px;
+    line-height: 24px;
+    margin-top: 12px;
+  }
+
+  .poverty .icon {
+    margin: 32px 32px 32px 0;
+  }
+
+  .hunger h4 {
+    position: absolute;
+    top: 2620px;
+    right: 255px;
+  }
+}
+
+/*---------------------DESKTOP VERSION--------------------------*/
+
+@media screen and (min-width: 1100px) {
+  .hunger {
+    height: 1279px;
+  }
+
+  .hunger h3 {
+    font-size: 72px;
+    width: 437px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 83.81px;
+  }
+
+  .hunger .action-today {
+    width: 160px;
+    margin-left: 100px;
+    margin-top: 44.19px;
+  }
+
+  .hunger .poverty {
+    width: 544px;
+    height: 232px;
+    margin-right: 160px;
+  }
+
+  .hunger .first {
+    margin-top: 128px;
+  }
+
+  .hunger .second {
+    margin-top: 32px;
+  }
+
+  .hunger .third {
+    margin-top: 32px;
+  }
+  .hunger .fourth {
+    margin-top: 32px;
+  }
+
+  .poverty .survival {
+    margin-left: 64px;
+    margin-top: 62px;
+  }
+
+  .poverty h5 {
+    font-size: 44px;
+  }
+
+  .poverty p {
+    font-size: 20px;
+    width: 336px;
+    height: 68px;
+    line-height: 30px;
+    margin-top: 5px;
+  }
+
+  .poverty .icon {
+    margin: 76px 56px 76px 0;
+  }
+
+  .hunger h4 {
+    position: absolute;
+    top: 2220px;
+    right: 481px;
+  }
 }
