@@ -724,3 +724,120 @@ a {
     font-size: 18px;
   }
 }
+
+/*-----------------------------------HUNGER ISSUE-----------------------------------------------*/
+
+/*---------------------MOBILE VERSION--------------------------*/
+
+.hunger {
+  background: url(/images/survival_mob.jpg);
+  width: 100%;
+  height: 1008px;
+  background-size: cover;
+  /* position: relative; */
+}
+
+.hunger h3 {
+  font-family: flood-std, sans-serif;
+  color: #ffffff;
+  font-size: 44px;
+  width: 300px; /*adjusted from 312px*/
+  height: 192px;
+  position: relative;
+  top: 64px;
+  left: 32px;
+}
+
+.hunger .action-today {
+  background: #c1f7d5;
+  width: 152px;
+  height: 40px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 90px;
+  left: 32px;
+}
+
+.hunger a {
+  color: #354463;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hunger .poverty {
+  background: #ffffff;
+  width: 312px;
+  height: 136px;
+  display: block;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hunger .first {
+  margin-top: 130px;
+}
+
+.hunger .second {
+  margin-top: 16px;
+}
+
+.hunger .third {
+  margin-top: 16px;
+}
+.hunger .fourth {
+  margin-top: 16px;
+}
+
+.poverty .survival {
+  margin-left: 32px;
+  margin-top: 34px;
+}
+
+.poverty h5 {
+  color: #354463;
+  font-size: 22px;
+}
+
+.poverty p {
+  font-size: 14px;
+  width: 198px;
+  height: 34px;
+  color: #354463;
+  line-height: 18px;
+  margin-top: 16px;
+}
+
+.poverty .icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 24px 32px 24px 0;
+}
+
+.poverty .icon a {
+  background: #c1f7d5;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hunger h4 {
+  background: #354463;
+  width: 160px;
+  height: 40px;
+  display: block;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  position: relative;
+  top: 150px;
+}
