@@ -1160,3 +1160,167 @@ a {
     margin-left: 0px;
   }
 }
+
+/*-----------------------------------SAVE THE FUTURE-----------------------------------------------*/
+
+/*---------------------MOBILE VERSION--------------------------*/
+
+.future {
+  background: #354463;
+  width: 100%;
+  padding-bottom: 55px;
+}
+
+.future h2 {
+  font-family: flood-std, sans-serif;
+  font-size: 44px;
+  color: #ffffff;
+  width: 312px;
+  height: 186px;
+  display: block;
+  margin: auto;
+  padding-top: 69px;
+  text-align: center;
+}
+.future h5 {
+  background: #ffffff;
+  width: 160px;
+  height: 40px;
+  display: block;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  top: -332px;
+}
+
+.future img {
+  width: 312px;
+  height: 312px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  margin-top: 173px;
+}
+
+.future h3 {
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  width: 300px; /*adjusted from 313px*/
+  display: block;
+  margin: auto;
+  margin-top: -10px;
+}
+
+.future p {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  width: 280px; /*adjusted from 313px*/
+  height: 128px;
+  display: block;
+  margin: auto;
+  margin-top: 24px;
+}
+
+.future .read-more {
+  background: #c1f7d5;
+  width: 156px;
+  height: 40px;
+  border-radius: 100px;
+  display: block;
+  margin: 17px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.future .read-more a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.future:last-child(3) {
+  background-color: black;
+  width: 100%;
+}
+.future .news {
+  margin-top: -75px;
+}
+
+/*---------------------TAB VERSION--------------------------*/
+
+@media screen and (min-width: 700px) {
+  .future {
+    /* padding-bottom: 55px; */
+  }
+
+  .future h2 {
+    width: 518px;
+    height: 90px;
+    margin: 0;
+    margin-left: 64px;
+    padding-top: 66.81px;
+    text-align: left;
+  }
+
+  .future-wrap .event {
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 632px;
+    height: 451px;
+    margin-top: 140px;
+  }
+
+  .future h5 {
+    top: 0px;
+    margin: 0;
+  }
+
+  .future img {
+    width: 288px;
+    height: 288px;
+    object-fit: cover;
+    margin: 0;
+  }
+
+  .future .earth-day {
+    margin-left: 14px;
+  }
+
+  .future h3 {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: left;
+    width: 216px;
+    margin: 0;
+    margin-top: 36px;
+  }
+
+  .future p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    width: 280px;
+    height: 170px;
+    margin: 0;
+    margin-top: 33px;
+  }
+
+  .future .read-more {
+    margin: 0;
+    margin-top: 32px;
+  }
+
+  .future .news {
+    margin-top: -48px;
+  }
+}
