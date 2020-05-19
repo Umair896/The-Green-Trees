@@ -1246,10 +1246,6 @@ a {
   text-decoration: none;
 }
 
-.future:last-child(3) {
-  background-color: black;
-  width: 100%;
-}
 .future .news {
   margin-top: -75px;
 }
@@ -1258,7 +1254,7 @@ a {
 
 @media screen and (min-width: 700px) {
   .future {
-    /* padding-bottom: 55px; */
+    padding-bottom: 72px;
   }
 
   .future h2 {
@@ -1271,17 +1267,16 @@ a {
   }
 
   .future-wrap .event {
-    display: block;
-    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     width: 632px;
     height: 451px;
     margin-top: 140px;
+    margin-left: 64px;
   }
 
   .future h5 {
-    top: 0px;
+    top: 0;
     margin: 0;
   }
 
@@ -1322,5 +1317,75 @@ a {
 
   .future .news {
     margin-top: -48px;
+  }
+
+  .news .event {
+    flex-direction: row-reverse;
+  }
+}
+
+/*---------------------DESKTOP VERSION--------------------------*/
+
+@media screen and (min-width: 1150px) {
+  .future {
+    padding-bottom: 112px;
+  }
+
+  .future h2 {
+    font-size: 72px;
+    width: 847px;
+    height: 148px;
+    margin: 0;
+    margin-left: 162px;
+    padding-top: 128px;
+  }
+
+  .future-wrap .event {
+    width: 1121px;
+    height: 576px;
+    margin-top: 214px;
+    margin-left: 162px;
+  }
+
+  .future img {
+    width: 576px;
+    height: 576px;
+    object-fit: cover;
+    margin: 0;
+  }
+
+  .future .earth-day {
+    margin-left: 26px;
+  }
+
+  .future h3 {
+    font-size: 44px;
+    line-height: 56px;
+    text-align: left;
+    width: 448px;
+    margin: 0;
+    margin-top: 48px;
+  }
+
+  .future p {
+    font-size: 20px;
+    line-height: 32px;
+    width: 448px;
+    height: 152px;
+    margin: 0;
+    margin-top: 22px;
+  }
+
+  .future .read-more {
+    margin-top: 48px;
+    height: 48px;
+  }
+
+  .future .news {
+    margin-top: -82px;
+  }
+
+  .news .event {
+    margin-left: 140px;
   }
 }
