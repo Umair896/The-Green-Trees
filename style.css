@@ -80,10 +80,12 @@ header h4 a {
     height: 63pt;
     font-size: 22pt;
   }
+
   header ul {
     top: 92pt;
     left: 36pt;
   }
+
   header ul li {
     display: inline;
   }
@@ -141,6 +143,7 @@ header h4 a {
   height: 592px;
   background-size: cover;
 }
+
 
 .climate h3 {
   font-family: flood-std, sans-serif;
@@ -208,6 +211,7 @@ a {
 /*---------------------TAB VERSION--------------------------*/
 
 @media screen and (min-width: 700px) {
+  
   .climate {
     background: url(/images/climate_tab.jpg);
     width: 100%;
