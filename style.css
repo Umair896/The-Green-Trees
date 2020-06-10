@@ -271,12 +271,12 @@ a {
   .climate {
     background: url(/images/climate_desk.jpg);
     width: 100%;
-    height: 672px;
+    height: 600px;
     background-size: cover;
   }
 
   .climate h3 {
-    font-size: 72px;
+    font-size: 60px;
     position: relative;
     top: 136.67px;
     left: 839px;
@@ -290,16 +290,16 @@ a {
   }
 
   .climate .change {
-    width: 544px;
-    height: 416px;
+    width: 500px;
+    height: 350px;
     position: absolute;
     top: 256px;
     left: 160px;
   }
 
   .climate .change p {
-    font-size: 44px;
-    width: 416px;
+    font-size: 36px;
+    width: 350px;
     height: 221px;
     font-weight: bold;
     position: absolute;
@@ -309,7 +309,7 @@ a {
 
   .climate .change a {
     position: absolute;
-    top: 325px;
+    top: 280px;
     left: 64px;
     text-align: left;
     width: 376px;
@@ -323,7 +323,7 @@ a {
 
 .action {
   background: #c1f7d5;
-  width: 100%;
+  /* width: 100%; */
   height: 328px;
 }
 
@@ -331,9 +331,11 @@ a {
   color: #354463;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  position: relative;
+  margin-left: 32px;
+  padding-top: 40px;
+  /* position: relative;
   left: 32px;
-  top: 65px;
+  top: 65px; */
 }
 
 .contents div {
@@ -371,7 +373,7 @@ a {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: -220px;
+  top: -20px;
   color: #ffffff;
   font-size: 14px;
   z-index: 5;
@@ -385,9 +387,10 @@ a {
   }
 
   .contents {
-    position: relative;
+    margin-left: 64px;
+    /* position: relative;
     left: 64px;
-    top: 64px;
+    top: 64px; */
   }
 
   .contents div {
@@ -420,13 +423,13 @@ a {
 
 @media screen and (min-width: 1150px) {
   .action {
-    height: 240px;
+    height: 200px;
   }
 
   .contents {
-    position: relative;
+    /* position: relative;
     left: 160px;
-    top: 79px;
+    top: 79px; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
@@ -435,7 +438,7 @@ a {
     width: 232px;
   }
 
-  .contents .volunteer,
+  /* .contents .volunteer,
   .share,
   .donate {
     margin-left: -64px;
@@ -447,13 +450,13 @@ a {
 
   .contents .donate {
     margin-left: -196px;
-  }
+  } */
 
   .contents .learn h2,
   .volunteer h2,
   .share h2,
   .donate h2 {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .contents .learn p,
@@ -470,10 +473,10 @@ a {
     margin-top: 0;
   }
 
-  .action h4 {
+  /* .action h4 {
     position: relative;
     top: -100px;
-  }
+  } */
 }
 
 /*-----------------------------------OUR MISSION-----------------------------------------------*/
@@ -740,7 +743,7 @@ a {
 .hunger h3 {
   font-family: flood-std, sans-serif;
   color: #ffffff;
-  font-size: 44px;
+  font-size: 40px;
   width: 300px; /*adjusted from 312px*/
   height: 192px;
   position: relative;
@@ -848,7 +851,7 @@ a {
   .hunger {
     background: url(/images/survival_desk.jpg);
     width: 100%;
-    height: 833px;
+    height: 760px;
     background-size: cover;
   }
 
@@ -872,10 +875,14 @@ a {
     margin-top: 26px;
   }
 
+  .poverty-wrap{
+    margin-top: -85px;
+  }
+
   .hunger .poverty {
-    width: 384px;
-    height: 152px;
-    margin-right: 64px;
+    width: 340px;
+    height: 135px;
+    margin-right: 80px;
   }
 
   .hunger .first {
@@ -899,11 +906,11 @@ a {
   }
 
   .poverty h5 {
-    font-size: 36px;
+    font-size: 26px;
   }
 
   .poverty p {
-    font-size: 16px;
+    font-size: 14px;
     width: 224px;
     height: 44px;
     line-height: 24px;
@@ -915,9 +922,11 @@ a {
   }
 
   .hunger h4 {
-    position: absolute;
+    /* position: absolute;
     top: 2620px;
-    right: 255px;
+    right: 255px; */
+    margin-bottom: 130px;
+    margin-left: 24px;
   }
 }
 
@@ -925,31 +934,31 @@ a {
 
 @media screen and (min-width: 1150px) {
   .hunger {
-    height: 1279px;
+    height: 750px;
   }
 
   .hunger h3 {
-    font-size: 72px;
-    width: 437px;
-    height: 300px;
+    font-size: 60px;
+    width: 280px;
+    height: 500px;
     margin-left: 100px;
-    margin-top: 83.81px;
+    margin-top: 0px;
   }
 
   .hunger .action-today {
     width: 160px;
     margin-left: 100px;
-    margin-top: 44.19px;
+    margin-top: -150px;
   }
 
   .hunger .poverty {
-    width: 544px;
-    height: 232px;
+    width: 400px;
+    height: 130px;
     margin-right: 160px;
   }
 
   .hunger .first {
-    margin-top: 128px;
+    margin-top: 60px;
   }
 
   .hunger .second {
@@ -964,30 +973,31 @@ a {
   }
 
   .poverty .survival {
-    margin-left: 64px;
-    margin-top: 62px;
+    margin-left: 30px;
+    margin-top:20px;
   }
 
   .poverty h5 {
-    font-size: 44px;
+    font-size: 30px;
   }
 
   .poverty p {
-    font-size: 20px;
-    width: 336px;
+    font-size: 16px;
+    width: 250px;
     height: 68px;
     line-height: 30px;
     margin-top: 5px;
   }
 
   .poverty .icon {
-    margin: 76px 56px 76px 0;
+    margin: 24px 40px 24px 0;
   }
 
   .hunger h4 {
-    position: absolute;
+    margin-top:20px;
+    /* position: absolute;
     top: 2220px;
-    right: 481px;
+    right: 481px; */
   }
 }
 
@@ -1117,7 +1127,7 @@ a {
     width: 1120px;
     display: block;
     margin: auto;
-    margin-bottom: 128px;
+    margin-bottom: 80px;
   }
 
   .stories h4 {
@@ -1129,38 +1139,38 @@ a {
   }
 
   .stories img {
-    width: 640px;
-    height: 568px;
+    width: 540px;
+    height: 460px;
     margin: 0;
     position: relative;
-    left: 480px;
+    left: 500px;
     margin-top: 90px;
   }
 
   .stories .help {
-    width: 544px;
-    height: 344px;
-    margin-left: 0px;
-    margin-top: -362px;
+    width: 480px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: -280px;
   }
 
   .stories .help p {
-    width: 416px;
+    width: 350px;
     height: 196px;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 36px;
     padding-top: 52px;
     margin-left: 64px;
   }
 
   .stories .help h5 {
-    margin-top: 60px;
+    margin-top: 30px;
     margin-left: 64px;
   }
 
   .stories .read-more {
-    margin-top: -28px;
-    margin-left: 0px;
+    margin-top: -60px;
+    margin-left: 50px;
   }
 }
 
@@ -1331,28 +1341,28 @@ a {
 
 @media screen and (min-width: 1150px) {
   .future {
-    padding-bottom: 112px;
+    height: 1360px;
   }
 
   .future h2 {
-    font-size: 72px;
-    width: 847px;
+    font-size: 50px;
+    width: 600px;
     height: 148px;
     margin: 0;
     margin-left: 162px;
-    padding-top: 128px;
+    padding-top: 85px;
   }
 
   .future-wrap .event {
-    width: 1121px;
+    width: 1000px;
     height: 576px;
-    margin-top: 214px;
+    margin-top: 120px;
     margin-left: 162px;
   }
 
   .future img {
-    width: 576px;
-    height: 576px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
     margin: 0;
   }
@@ -1362,12 +1372,12 @@ a {
   }
 
   .future h3 {
-    font-size: 44px;
-    line-height: 56px;
+    font-size: 36px;
+    line-height: 45px;
     text-align: left;
-    width: 448px;
+    width: 300px;
     margin: 0;
-    margin-top: 48px;
+    margin-top: 22px;
   }
 
   .future p {
@@ -1385,7 +1395,7 @@ a {
   }
 
   .future .news {
-    margin-top: -82px;
+    margin-top: -130px;
   }
 
   .news .event {
@@ -1482,7 +1492,7 @@ a {
 
 @media screen and (min-width: 1150px) {
   .subscribe {
-    height: 208px;
+    height: 180px;
   }
 
   .subscribe {
@@ -1495,23 +1505,23 @@ a {
   .subscribe h3 {
     width: 544px;
     height: 70px;
-    font-size: 26px;
+    font-size: 22px;
     padding-top: 69px;
     margin-left: 0;
   }
 
   .subscribe input {
     margin-top: 80px;
-    width: 352px;
+    width: 280px;
     height: 48px;
-    font-size: 20px;
-    margin-left: -88px;
+    font-size: 16px;
+    margin-left:0px;
   }
 
   .subscribe button {
-    width: 160px;
+    width: 140px;
     height: 48px;
-    margin-left: 32px;
+    margin-left: 26px;
   }
 }
 
@@ -1697,4 +1707,8 @@ footer h1{
    margin-top: 113.81px;
    margin-left:-200px;
   }  
-  }
+}
+
+  /* @media screen and (min-width: 1150px) {
+    transform: scale(0.8);
+  } */
