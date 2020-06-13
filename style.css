@@ -994,7 +994,7 @@ a {
   }
 
   .hunger h4 {
-    margin-top:20px;
+    margin-top: 20px;
     /* position: absolute;
     top: 2220px;
     right: 481px; */
@@ -1515,7 +1515,8 @@ a {
     width: 280px;
     height: 48px;
     font-size: 16px;
-    margin-left:0px;
+    margin-left: 0px;
+
   }
 
   .subscribe button {
@@ -1534,16 +1535,15 @@ footer {
   width: 100%;
   height: 600px;
   color: #354463;
-   display: flex;
+  display: flex;
   flex-wrap: wrap;
- }
-
+}
 
 footer h3 {
   width: 94px;
   height: 62px;
   font-size: 18px;
-   }
+}
 
 footer .footer-wrap h4 {
   text-transform: uppercase;
@@ -1568,7 +1568,7 @@ footer .footer-wrap h4 {
 }
 
 footer h1 {
-  font-family: flood-std; sans-serif;
+  font-family: flood-std, sans-serif;
   font-size: 44px;
   text-align: right;
   width: 181px;
@@ -1577,121 +1577,408 @@ footer h1 {
 
 /*FLEX ITEMS ARRANGEMENT*/
 
-footer .initiate{
+footer .initiate {
   width: 35%;
   margin-top: 67px;
   margin-left: 32px;
 }
 
-footer .contact{
+footer .contact {
   width: 35%;
-  margin-top: 68px ;
+  margin-top: 68px;
   margin-left: 57px;
 }
- 
-footer .follow{
+
+footer .follow {
   width: 35%;
   margin-top: 28px;
   margin-left: 32px;
 }
 
-footer .learn{
-width: 35%;
-margin-top: 28px;
-margin-left: 60px;
+footer .learn {
+  width: 35%;
+  margin-top: 28px;
+  margin-left: 60px;
 }
 
-footer h1{
+footer h1 {
   margin-left: 40%;
-}  
-    
+}
+
 /*---------------------TAB VERSION--------------------------*/
 
 @media screen and (min-width: 700px) {
-footer {
-   height: 432px;
- }
+  footer {
+    height: 432px;
+  }
 
-footer h3 {
-  width: 153px;
-  height: 50px;
-  font-size:22px;
- }
+  footer h3 {
+    width: 153px;
+    height: 50px;
+    font-size: 22px;
+  }
 
-/*FLEX ITEMS ARRANGEMENT*/
+  /*FLEX ITEMS ARRANGEMENT*/
 
-footer .initiate{
-  width: 20%;
-  margin-top:60px;
-  margin-left: 64px;
-}
+  footer .initiate {
+    width: 20%;
+    margin-top: 60px;
+    margin-left: 64px;
+  }
 
-footer .contact{
-  width: 20%;
-  margin-top: 60px ;
-  margin-left: 71px;
-}
- 
-footer .follow{
-  width:20%;
-  margin-top: 60px;
-  margin-left: 68px;
-}
+  footer .contact {
+    width: 20%;
+    margin-top: 60px;
+    margin-left: 71px;
+  }
 
-footer .learn{
+  footer .follow {
+    width: 20%;
+    margin-top: 60px;
+    margin-left: 68px;
+  }
 
-  margin-top: 28px;
-margin-left: 35%;
-}
+  footer .learn {
+    margin-top: 28px;
+    margin-left: 35%;
+  }
 
-footer h1{
-  margin-left:-50px;
-}  
+  footer h1 {
+    margin-left: -50px;
+  }
 }
 
 /*---------------------DESKTOP VERSION--------------------------*/
 
 @media screen and (min-width: 1150px) {
   footer {
-     height: 371px;
-     display: flex;
-     justify-content: center;
-    }
-  
+    height: 371px;
+    display: flex;
+    justify-content: center;
+  }
+
   footer .footer-wrap h4 {
     font-size: 14px;
     margin-bottom: 25px;
-    border-bottom:1px solid #354463 ;
+    border-bottom: 1px solid #354463;
     float: left;
     padding-right: 50px;
-  } 
-  
+  }
+
   /*FLEX ITEMS ARRANGEMENT*/
-  
-  footer .initiate{
+
+  footer .initiate {
     float: left;
-   width: 130px;
-    margin-top:114px;
-    margin-left:0px;
+    width: 130px;
+    margin-top: 114px;
+    margin-left: 0px;
   }
-  
-  footer .contact{
+
+  footer .contact {
     float: left;
-     margin-top: 117px;
-    margin-left:116px;
+    margin-top: 117px;
+    margin-left: 116px;
   }
-  .contact p{
+  .contact p {
     clear: both;
   }
- 
-  footer .follow{
-  float: left;
-   margin-top: 117px;
-  margin-left:-60px;
+
+  footer .follow {
+    float: left;
+    margin-top: 117px;
+    margin-left: -60px;
+  }
+  .follow ul {
+    clear: both;
+  }
+
+  footer .learn {
+    float: left;
+    margin-top: 117px;
+    margin-left: -60px;
+  }
+  .learn ul {
+    clear: both;
+  }
+
+  footer h1 {
+    float: left;
+    margin-top: 113.81px;
+    margin-left: -200px;
+  }
 }
-.follow ul{
-  clear: both;
+
+/*------------------------------------ABOUT PAGE----------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------CLIMATE CHANGE-----------------------------------------------*/
+
+/*---------------------MOBILE VERSION--------------------------*/
+
+.climate-about {
+  background: url(/images/about-images/climate_mob.jpg) no-repeat 100% center;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
 }
+
+.climate-about h3 {
+  font-family: flood-std, sans-serif;
+  color: #ffffff;
+  font-size: 44px;
+  font-style: normal;
+  position: relative;
+  width: 181px;
+  height: 136px;
+  top: 32px;
+  left: 32px;
+}
+
+.climate-about h4 {
+  background: #354463;
+  width: 160px;
+  height: 40px;
+  display: block;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 148px;
+  color: #ffffff;
+  font-size: 14px;
+  z-index: 5;
+}
+
+.climate-about .change {
+  background: #ffffff;
+  width: 312px;
+  height: 264px;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 128px;
+}
+
+.climate-about .change p,
+a {
+  color: #354463;
+  text-align: center;
+}
+
+.climate-about .change p {
+  font-size: 22px;
+  width: 240px;
+  height: 200px;
+  display: block;
+  margin: auto;
+  /* position: relative;
+  top: 40px; */
+  padding-top: 40px;
+  font-weight: bold;
+}
+
+/* .climate-about .change a {
+  position: absolute;
+  top: 167px;
+  left: 10%;
+  width: 248px;
+  height: 42px;
+} */
+
+/*---------------------TAB VERSION--------------------------*/
+
+@media screen and (min-width: 700px) {
+  .climate-about {
+    background: url(/images/about-images/climate_tab.jpg);
+    width: 100%;
+    height: 608px;
+    background-size: cover;
+  }
+
+  .climate-about h3 {
+    position: relative;
+    width: 181px;
+    height: 136px;
+    top: 64px;
+    left: 64px;
+  }
+
+  .climate-about h4 {
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 128px;
+    z-index: 5;
+  }
+
+  .climate-about .change {
+    width: 640px;
+    height: 264px;
+    margin-left: 64px;
+    margin-top: -4px;
+  }
+
+  .climate-about .change p {
+    font-size: 28px;
+    width: 512px;
+    height: 141px;
+    text-align: left;
+    font-weight: bold;
+    /* position: absolute;
+    top: 59px;
+    left: 64px; */
+    line-height: 36px;
+    padding-top: 59px;
+  }
+}
+
+/*---------------------DESKTOP VERSION--------------------------*/
+
+@media screen and (min-width: 1150px) {
+  .climate-about {
+    background: url(/images/about-images/climate_desk.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .climate-about h3 {
+    font-size: 60px;
+  }
+
+  .climate-about h4 {
+    width: 160px;
+    height: 40px;
+  }
+
+  .climate-about .change {
+    width: 500px;
+    height: 250px;
+  }
+
+  .climate-about .change p {
+    font-size: 24px;
+    width: 400px;
+    font-weight: bold;
+  }
+
+  .climate-about-wrap {
+    margin-top: 24px;
+  }
+}
+
+/*-----------------------------------WHAT WE DO-----------------------------------------------*/
+
+/*---------------------MOBILE VERSION--------------------------*/
+
+.what-we-do-about {
+  background: #354463;
+  width: 100%;
+  height: 1728px;
+}
+
+.strive-about {
+  text-align: center;
+  padding-top: 32px;
+}
+
+.strive-about h3 {
+  background: #ffffff;
+  width: 160px;
+  height: 40px;
+  font-size: 14px;
+  display: block;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.strive-about p {
+  color: #ffffff;
+  font-size: 22px;
+  width: 302px;
+  height: 134px;
+  display: block;
+  margin: 33px auto;
+  line-height: 28px;
+}
+
+.strive-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.strive-content {
+  width: 175px;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.strive-content i {
+  font-size: 22px;
+}
+
+.strive-content h3 {
+  font-size: 16px;
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
+
+.strive-content p {
+  width: 140px;
+  font-size: 14px;
+  line-height: 20px;
+}
+/*---------------------TAB VERSION--------------------------*/
+
+@media screen and (min-width: 700px) {
+  .what-we-do-about {
+    height: 1384px;
+  }
+
+  .strive-about {
+    padding-top: 64px;
+  }
+
+  .strive-about h3 {
+    text-align: left;
+    margin-left: 64px;
+  }
+
+  .strive-about p {
+    font-size: 28px;
+    width: 675px;
+    height: 100px;
+    text-align: left;
+    line-height: 36px;
+  }
+}
+
+/*---------------------DESKTOP VERSION--------------------------*/
+
+@media screen and (min-width: 1150px) {
+  .what-we-do-about {
+    height: 1072px;
+  }
+
+  .strive-about {
+    padding-top: 90px;
+  }
+
+  .strive-about p {
+    font-size: 34px;
+    width: 1000px;
+    height: 140px;
+    margin-left: 60px;
+    line-height: 50px;
+  }
+}
+
   
   footer .learn{
   float: left;
