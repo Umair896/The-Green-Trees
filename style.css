@@ -1911,6 +1911,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-left: 20px;
 }
 
 .strive-content {
