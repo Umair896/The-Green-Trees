@@ -144,6 +144,7 @@ header h4 a {
   background-size: cover;
 }
 
+
 .climate h3 {
   font-family: flood-std, sans-serif;
   color: #ffffff;
@@ -210,6 +211,7 @@ a {
 /*---------------------TAB VERSION--------------------------*/
 
 @media screen and (min-width: 700px) {
+  
   .climate {
     background: url(/images/climate_tab.jpg);
     width: 100%;
@@ -873,7 +875,7 @@ a {
     margin-top: 26px;
   }
 
-  .poverty-wrap {
+  .poverty-wrap{
     margin-top: -85px;
   }
 
@@ -972,7 +974,7 @@ a {
 
   .poverty .survival {
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top:20px;
   }
 
   .poverty h5 {
@@ -1514,6 +1516,7 @@ a {
     height: 48px;
     font-size: 16px;
     margin-left: 0px;
+
   }
 
   .subscribe button {
@@ -1975,3 +1978,24 @@ a {
     line-height: 50px;
   }
 }
+
+  
+  footer .learn{
+  float: left;
+    margin-top: 117px;
+  margin-left: -60px;
+}
+.learn ul {
+  clear: both;
+}
+  
+  footer h1{
+   float: left;
+   margin-top: 113.81px;
+   margin-left:-200px;
+  }  
+}
+
+  /* @media screen and (min-width: 1150px) {
+    transform: scale(0.8);
+  } */
